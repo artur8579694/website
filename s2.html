@@ -10,15 +10,23 @@
         <a href="s.html" class="btn">На головну</a>
     </header>
 </head>
-<body>
+<body class="rr">
+    
     <form>
         <label>Ім'я:</label>
-        <input type="text">
-        <label> Прізвище</label>
-        <input type="text2">
+        <input type="text" required>
+
+        <label>Прізвище:</label>
+        <input type="text" required>
+
         <label>Email:</label>
-        <input type="email">
-        <button type="tex2">Реєстрація</button>
+        <input type="email" required>
+
+        <label><input type="radio" name="save_data" value="yes" checked> Зберегти дані</label>
+        <label><input type="radio" name="save_data" value="no"> Не зберігати</label>
+
+        <button type="submit">Реєстрація</button>
+        <button type="button">Вхід</button>
     </form>
     
 </body>
